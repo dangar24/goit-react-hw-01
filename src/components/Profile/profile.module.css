@@ -1,0 +1,80 @@
+.container {
+    width: 400px;
+    height: auto;
+    border: 1px solid #000;
+    border-radius: 8px;
+    margin: 0px auto;
+}
+
+.position {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.name {
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.17;
+}
+
+.tag {
+    color: #797676;
+    font-size: 20px;
+}
+
+.location {
+    color: #797676;
+    font-size: 24px;
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid gray;
+}
+
+.item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    border-right: 1px solid gray;
+}
+
+.lastItem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+}
+
+.itemTitle {
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.17;
+}
+
+.itemText {
+    color: #000;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+}

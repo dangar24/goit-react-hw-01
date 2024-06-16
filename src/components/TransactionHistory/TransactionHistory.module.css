@@ -1,0 +1,27 @@
+.table {
+    margin: 80px auto;
+    width: 100%;
+    max-width: 700px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.title {
+    color: white;
+    background-color: rgb(51, 51, 51);
+    font-size: 25px;
+    padding: 10px;
+    font-weight: normal;
+    border-right: 1px solid black;
+}
+
+.text {
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px 0;
+}
+
+.grey {
+    background-color: gray;
+}
